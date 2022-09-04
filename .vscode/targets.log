@@ -6,8 +6,11 @@ make all --print-data-base --no-builtin-variables --no-builtin-rules --question
 # PARTICULAR PURPOSE.
 
 # This program built for i386-apple-darwin11.3.0
+ 
+make: *** No rule to make target `all'.  Stop.
 
-# Make data base, printed on Thu Sep  1 18:12:14 2022
+
+# Make data base, printed on Sun Sep  4 13:16:31 2022
 
 # Variables
 
@@ -38,7 +41,7 @@ VSCODE_VERBOSE_LOGGING = true
 # environment
 __CFBundleIdentifier = com.microsoft.VSCode
 # environment
-VSCODE_IPC_HOOK_EXTHOST = /var/folders/2k/08x7pcb100l_zwn70_wbm3w40000gn/T/vscode-ipc-1b71dfb4-11ca-4130-9091-d16516f3a873.sock
+VSCODE_IPC_HOOK_EXTHOST = /var/folders/2k/08x7pcb100l_zwn70_wbm3w40000gn/T/vscode-ipc-117818fb-3deb-45df-89b0-fdae810205be.sock
 # environment
 VSCODE_CWD = /
 # environment
@@ -71,6 +74,7 @@ MAKEFILEPATH = $(shell /usr/bin/xcode-select -print-path 2>/dev/null || echo /De
 VSCODE_CODE_CACHE_PATH = /Users/chemago/Library/Application Support/Code/CachedData/c3511e6c69bb39013c4a4b7b9566ec1ca73fc4d5
 # environment
 LOGNAME = chemago
+ 
 # environment
 APPLICATION_INSIGHTS_NO_DIAGNOSTIC_CHANNEL = 1
 # environment
@@ -84,10 +88,13 @@ CONDA_DEFAULT_ENV = base
 # environment
 XPC_FLAGS = 0x0
 # default
+ 
 MAKE = $(MAKE_COMMAND)
 # default
+ 
 MAKECMDGOALS := all
 # environment
+ 
 SHLVL = 1
 # default
 MAKE_VERSION := 3.81
@@ -145,6 +152,7 @@ _CE_M =
 MAKELEVEL := 0
 # environment
 CONDA_PREFIX = /Users/chemago/opt/anaconda3
+ 
 # environment
 VSCODE_PID = 2921
 # environment
@@ -203,6 +211,7 @@ makefile:
 #  File has been updated.
 #  Failed to be updated.
 # variable set hash-table stats:
+ 
 # Load=0/32=0%, Rehash=0, Collisions=0/0=0%
 
 # Not a target:
@@ -234,8 +243,6 @@ GNUmakefile:
 # strcache size: total = 0 / max = 0 / min = 4096 / avg = 0
 # strcache free: total = 0 / max = 0 / min = 4096 / avg = 0
 
-# Finished Make data base on Thu Sep  1 18:12:14 2022
+# Finished Make data base on Sun Sep  4 13:16:31 2022
 
  
-make: *** No rule to make target `all'.  Stop.
-
